@@ -42,7 +42,7 @@ let month = futureDate.getMonth();
 month = months[month];
 const weekday = weekdays[futureDate.getDay()];
 const date = futureDate.getDate();
-giveaway.textContent = `giveaway ends on ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}am`;
+giveaway.textContent = `Launch start on ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}am`;
 
 const futureTime = futureDate.getTime();
 function getRemaindingTime() {
@@ -79,7 +79,7 @@ function getRemaindingTime() {
 
     if (t < 0) {
         clearInterval(countdown);
-        deadline.innerHTML = `<h4 class="expired">sorry, this giveaway has expired!</h4>`;
+        deadline.innerHTML = `<h4 class="expired">sorry, this launch has expired!</h4>`;
     }
 }
 // countdown;
