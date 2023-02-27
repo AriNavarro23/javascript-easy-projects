@@ -53,7 +53,7 @@ const companiesDOM = document.querySelector('.companies');
 
 const displayButtons = () => {
     const buttons = [
-        'all',
+        'Todas',
         ...new Set(products.map((product) => product.company)),
     ];
     // console.log(buttons);
@@ -69,7 +69,7 @@ displayButtons();
 companiesDOM.addEventListener('click', (e) => {
     const el = e.target;
     if (el.classList.contains('company-btn')) {
-        if (el.dataset.id === 'all') {
+        if (el.dataset.id === 'Todas') {
             filteredProducts = [...products];
         } else {
             filteredProducts = products.filter((product) => {

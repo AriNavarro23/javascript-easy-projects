@@ -10,7 +10,7 @@ const products = [
     {
         id: 'rec4f2RIftFCb7aHh',
         title: 'albany table',
-        company: 'marcos',
+        company: 'Ariel',
         image:
             'https://dl.airtable.com/.attachments/f3450755e165557344f7d6433242431e/93533098/product-1.jpeg',
         price: 79.99,
@@ -50,7 +50,7 @@ const products = [
     {
         id: 'recZEougL5bbY4AEx',
         title: 'modern bookshelf',
-        company: 'marcos',
+        company: 'Ariel',
         image:
             'https://dl.airtable.com/.attachments/a889b1928b134c2ca0b5bbca32ea9abf/65c8a9a6/product-7.jpg',
         price: 8.99,
@@ -66,7 +66,7 @@ const products = [
     {
         id: 'recmg2a1ctaEJNZhu',
         title: 'utopia sofa',
-        company: 'marcos',
+        company: 'Ariel',
         image:
             'https://dl.airtable.com/.attachments/6ac7f7b55d505057317534722e5a9f03/9183491e/product-3.jpg',
         price: 39.95,

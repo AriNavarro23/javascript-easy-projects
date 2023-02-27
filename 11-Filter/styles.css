@@ -62,6 +62,7 @@ body {
     font-weight: 400;
     line-height: 1.75;
     color: var(--textColor);
+    background-color: var(--primary-200);
 }
 
 p {
