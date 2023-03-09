@@ -24,6 +24,7 @@ Variables
     --clr-grey-2: hsl(211, 39%, 23%);
     --clr-grey-3: hsl(209, 34%, 30%);
     --clr-grey-4: hsl(209, 28%, 39%);
+    --clr-grey-11: hsl(220, 2%, 25%);
     /* grey used for paragraphs */
     --clr-grey-5: hsl(210, 22%, 49%);
     --clr-grey-6: hsl(209, 23%, 60%);
@@ -205,10 +206,15 @@ Navbar
 
 .navbar {
     height: 6rem;
+    background-color: var(--clr-grey-11) !important;
     background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer .navbar li{
+    color: #fff;
 }
 
 .nav-center {
@@ -330,8 +336,7 @@ Hero
 ===============
 */
 .hero {
-    min-height: 100vh;
-    margin-top: -6rem;
+    min-height: 80vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(./images/main-bcg.jpeg) center/cover;
     display: grid;
